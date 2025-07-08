@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sambal Baby Cumi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Sambal Baby Cumi</a>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#services">Produk</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Sambal Baby Cumi</h1>
+      <p>Pedasnya Nampol, Cuminya Nendang!
+Sambal Baby Cumi spesial racikan rumahan yang bikin nagih di setiap suapan. Sekali coba, pasti ketagihan!</p>
+      <a href="#contact" class="btn-primary">Hubungi Kami</a>
+    </div>
+  </header>
+
+  <section id="services" class="services-section container">
+    <h2>Produk</h2>
+    <div class="services-cards">
+      <div class="card">
+        <i class="fas fa-video"></i>
+        <h3>Sambal Baby Cumi</h3>
+        <p>Lezatnya Laut dalam Setiap Sendok!
+Perpaduan baby cumi segar dan sambal pedas gurih yang dimasak perlahan hingga meresap sempurna. Cocok untuk segala suasana makan, dari nasi hangat hingga mie instan kesayangan Anda!</p>
+      </div>
+  </section>
+
+  <section id="gallery" class="gallery-section container">
+    <h2>Galeri Kami</h2>
+    <div class="gallery-grid">
+      <img src="cumi1.jpg" alt="cumi1 1" />
+      <img src="cumi2.jpg" alt="cumi2 2" />
+      <img src="cumi3.jpg" alt="cumi3 3" />
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section container">
+    <h2>Hubungi Kami</h2>
+    <p>Untuk pemesanan silakan hubungi kami melalui:</p>
+    <div class="contact-buttons">
+      <a href="https://api.whatsapp.com/send?phone=6281268008185" target="_blank" class="btn wa"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://www.instagram.com/halloo.girls/profilecard/?igsh=MW1xd2c5ZWowd2sxNg%3D%3D" target="_blank" class="btn ig"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://shopee.co.id/" target="_blank" class="btn shopee"><i class="fas fa-shopping-cart"></i> Shopee</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Sambal Baby Cumi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle menu for mobile
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
